@@ -811,3 +811,19 @@ placeholder {
 .svg-icon-modal-window:focus {
     fill: #ffffff;
 }
+
+@media screen and (max-width:767px){
+    .conteiner{
+        max-width:767px;
+    }
+    .menu{
+        display:none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .conteiner{
+        max-width: 1023px;
+        min-width: 768px;
+    }
+    
+}
