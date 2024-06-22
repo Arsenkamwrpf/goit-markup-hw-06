@@ -811,7 +811,9 @@ placeholder {
 .svg-icon-modal-window:focus {
     fill: #ffffff;
 }
-
+.mob-menu{
+    display: none;
+}
 @media screen and (max-width:767px){
     .conteiner{
         max-width:767px;
@@ -825,5 +827,7 @@ placeholder {
         max-width: 1023px;
         min-width: 768px;
     }
-    
+    .mob-menu{
+        display:none;
+    }
 }
