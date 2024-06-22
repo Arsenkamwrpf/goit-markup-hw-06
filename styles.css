@@ -944,4 +944,7 @@ placeholder {
         max-width: 1023px;
         min-width: 768px;
     }
+    .first-section{
+    max-width: 100%;
+    }
 }
