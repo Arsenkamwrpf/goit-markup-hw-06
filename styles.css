@@ -193,6 +193,22 @@ p {
                 }
 
 }
+@media screen and(min-width:1158px){
+    .logo{
+        margin-right: 76px;
+
+    }
+    .address-list{
+        flex-direction: row;
+        gap: 40px;
+    }
+    .address-item{
+        font-size:18px;
+        line-height: 1.5;
+    }
+}
+
+
 /*.section1 {
     background-color: #2e2f42;
 }
