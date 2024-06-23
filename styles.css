@@ -29,6 +29,7 @@ p {
 .header-info {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .container {
@@ -69,7 +70,6 @@ p {
 .logo {
     
     display: flex;
-    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -169,7 +169,13 @@ p {
 .address:active {
     color: #404bbf;
 }
-
+.open-menu-btn{
+    padding:0;
+    background-color: transparent;
+    cursor: pointer;
+    line-height: 0;
+    border:none;
+}
 /*.section1 {
     background-color: #2e2f42;
 }
