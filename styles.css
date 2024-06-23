@@ -185,6 +185,7 @@ ol {
 }
 
 .first-section {
+    padding: 48px 0;
     background-color: #2e2f42;
     gap: 15px;
     min-height: 432px;
@@ -205,7 +206,6 @@ ol {
     color: #ffffff;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 48px;
 }
 
 .button {
