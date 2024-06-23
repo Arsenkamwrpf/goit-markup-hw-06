@@ -186,7 +186,7 @@ ol {
 
 .first-section {
     background-color: #2e2f42;
-    gap: 10px;
+    gap: 15px;
     min-height: 432px;
     min-width: 320px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/Dark-bg.jpg);
