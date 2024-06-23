@@ -67,6 +67,7 @@ p {
 }
 
 .logo {
+    
     display: flex;
     margin-right: 76px;
     font-family: "Raleway", sans-serif;
@@ -76,9 +77,11 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 17px 0;
 
 }
 .menu {
+    display: none;
     color: #2e2f42;
     display: flex;
     gap: 40px;
@@ -147,6 +150,7 @@ p {
 }
 
 .address-list {
+    display: none;
     padding: 24px 0;
     display: flex;
     gap: 40px;
