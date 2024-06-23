@@ -196,7 +196,7 @@ ol {
 }
 
 .first-section-title {
-    max-width: 320px;
+    min-width: 216px;
     font-size: 36px;
     line-height: 40px;
     text-align: center;
