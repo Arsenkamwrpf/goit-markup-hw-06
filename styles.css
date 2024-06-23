@@ -174,13 +174,13 @@ ol {
 }
 
 
-/*.section1 {
+.section1 {
     background-color: #2e2f42;
 }
 
 .section1-title {
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -188,7 +188,7 @@ ol {
     padding: 188px 0;
     background-color: #2e2f42;
     gap: 10px;
-    max-width: 1440px;
+    max-width: 320px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/bkgi.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -230,11 +230,6 @@ ol {
     background-color: #404BBF;
 }
 
-a {
-
-    text-decoration: none;
-}
-
 ul,
 nav {
     list-style: none;
@@ -242,7 +237,10 @@ nav {
     margin-top: 0;
     margin-bottom: 0;
 }
-
+/*
+.second-section {
+    padding: 120px 0;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -256,9 +254,7 @@ nav {
     overflow: hidden;
 }
 
-.second-section {
-    padding: 120px 0;
-}
+
 
 .icon {
     display: flex;
