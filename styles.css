@@ -200,7 +200,7 @@ ol {
     font-size: 36px;
     line-height: 40px;
     text-align: center;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #ffffff;
     margin-right: auto;
     margin-left: auto;
@@ -216,7 +216,7 @@ ol {
     cursor: pointer;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
     margin-right: auto;
