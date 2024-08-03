@@ -984,7 +984,7 @@ placeholder {
 }
 @media screen and (min-width:768px) {
     .modal-window{
-        width:408;
+        width:408px;
     }
 }
 .modal-button {
