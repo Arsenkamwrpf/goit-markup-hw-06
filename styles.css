@@ -339,9 +339,6 @@ padding: 94px 0;
     overflow: hidden;
 
 }
-@media screen and (min-width:768px){
-
-}
 
 
 .icon {
@@ -355,7 +352,11 @@ padding: 94px 0;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
 }
-
+@media screen and(max-width:1158px) {
+    .icon {
+        display: none;
+    }
+}
 .features-list {
     display: flex;
     gap: 24px;
