@@ -797,11 +797,6 @@ placeholder {
         flex-direction: row;
     }
 }
-@media screen and (max-width:1158px) {
-    .cccc-input {
-        flex-direction: row;
-    }
-}
 @media screen and (min-width:1158px) {
     
 }
