@@ -762,9 +762,8 @@ padding: 94px 0;
 }
 @media screen and (max-width:768px), (min-width:1158px) {
     .cccc{
-        flex-direction: column;
+        flex-wrap:wrap;
     }
-
 }
 .cccc-input {
     width: 264px;
