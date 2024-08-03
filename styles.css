@@ -324,7 +324,12 @@ padding: 94px 0;
 
 
 .second-section {
-    padding: 120px 0;
+    padding: 72px 0;
+}
+@media screen and (min-width:768px) {
+    .second-section {
+            padding: 120px 0;
+        }
 }
 .visually-hidden {
     position: absolute;
@@ -358,7 +363,7 @@ padding: 94px 0;
     }
 }
 .features-list {
-    display: flex;
+    display: grid;
     gap: 72px;
     padding-left: 0;
     margin: 0;
@@ -367,6 +372,7 @@ padding: 94px 0;
 }
 @media screen and (min-width:768px) {
     .features-list{
+        display: flex;
         column-count:2;
         column-width: 736px;
     }
