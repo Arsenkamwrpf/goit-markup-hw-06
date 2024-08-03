@@ -346,7 +346,7 @@ padding: 94px 0;
 }
 
 
-.icon {
+.features-icon {
     display: none;
     align-items: center;
     justify-content: center;
@@ -358,7 +358,7 @@ padding: 94px 0;
     margin-bottom: 8px;
 }
 @media screen and(min-width:1158px) {
-    .icon {
+    .features-icon {
         display: flex;
     }
 }
