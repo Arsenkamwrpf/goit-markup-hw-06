@@ -363,8 +363,8 @@ padding: 94px 0;
     }
 }
 .features-list {
-    display: grid;
-    gap: 72px;
+    display:grid;
+    gap: 24px;
     padding-left: 0;
     margin: 0;
     column-count: 1;
@@ -380,8 +380,7 @@ padding: 94px 0;
 @media screen and (min-width:1158px){
     .features-list{
         column-count: 4;
-        column-width: 1128px;
-        gap:24px    
+        column-width: 1128px;   
     }
 }
     .features-list .features-item {
