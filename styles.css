@@ -744,8 +744,8 @@ padding: 94px 0;
 }
 
 .cccc-form {
-    display: flex;
     gap: 24px;
+    margin-bottom: 16px;
 }
 
 .cccc-input {
