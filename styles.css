@@ -373,16 +373,13 @@ padding: 94px 0;
 @media screen and (min-width:768px) {
     .features-list{
         display: flex;
-    }
-    .features-item{
-                column-count: 2;
-                    column-width: 736px;
+        flex-wrap: wrap ;
+        width: 736px;
     }
 }
 @media screen and (min-width:1158px){
-    .features-item{
-        column-count: 4;
-        column-width: 1128px;   
+    .features-list{
+        width: 1128px;
     }
 }
     .features-list .features-item {
