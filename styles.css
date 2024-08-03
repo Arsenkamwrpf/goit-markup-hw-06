@@ -368,21 +368,13 @@ padding: 94px 0;
     gap: 24px;
     padding-left: 0;
     margin: 0;
-    column-count: 1;
-    column-width: 288px;
 }
 @media screen and (min-width:768px) {
     .features-list{
-        display: flex;
-        flex-wrap: wrap ;
-        width: 736px;
+        flex-flow: row wrap;
     }
 }
-@media screen and (min-width:1158px){
-    .features-list{
-        width: 1128px;
-    }
-}
+
     .features-list .features-item {
 
     flex-basis: calc((100% - 3 * 24px) / 4);
