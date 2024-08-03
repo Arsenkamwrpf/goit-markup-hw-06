@@ -380,15 +380,13 @@ padding: 94px 0;
 }
 @media screen and (min-width:768px) {
     .features-list .features-item {
-    
-            flex-basis: calc((100% - 3 * 24px) / 2);
+        flex-basis: calc((100% - 3 * 24px) / 2);
         }
     
 }
-@media screen and(min-width:1158px) {
+@media screen and (min-width:1158px) {
     .features-list .features-item {
-    
-            flex-basis: calc((100% - 3 * 24px) / 4);
+        flex-basis: calc((100% - 3 * 24px) / 4);
         }
 }
 
