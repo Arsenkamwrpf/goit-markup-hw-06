@@ -414,10 +414,14 @@ padding: 94px 0;
 }
 
 .third-section {
-    padding: 120px 0;
+    padding: 72px 0;
     background-color: #F4F4FD;
 }
-
+@media screen and (min-width:1158px){
+    .third-section{
+        padding: 120px 0; 
+    }
+}
 .third-section-title {
     margin-bottom: 72px;
     font-size: 36px;
