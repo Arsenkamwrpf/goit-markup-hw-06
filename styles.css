@@ -760,6 +760,12 @@ padding: 94px 0;
     }
     
 }
+@media screen and (max-width:768px), (min-width:1158px) {
+    .bbbb{
+        flex-direction: column;
+    }
+    
+}
 .cccc-input {
     width: 264px;
     height: 40px;
