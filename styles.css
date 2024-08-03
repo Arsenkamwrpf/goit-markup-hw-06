@@ -357,7 +357,7 @@ padding: 94px 0;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
 }
-@media screen and(min-width:1158px) {
+@media screen and (min-width:1158px) {
     .features-icon {
         display: flex;
     }
