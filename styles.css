@@ -230,11 +230,9 @@ ol {
     letter-spacing: 0.02em;
     text-align: left;
     padding-bottom: 40px;
-    gap:24px !important;
+    gap:24px;
 }
-.mobile-address-link{
-    padding-bottom: 24px;
-}
+
 .mobile-icon-list{
     gap:40px;
     display: flex;
