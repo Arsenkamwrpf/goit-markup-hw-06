@@ -232,6 +232,9 @@ ol {
     padding-bottom: 40px;
     gap:24px !important;
 }
+.mobile-address-link{
+    padding-bottom: 24px;
+}
 .mobile-icon-list{
     gap:40px;
     display: flex;
