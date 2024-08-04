@@ -425,6 +425,14 @@ padding: 94px 0;
     line-height: 1.4;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    justify-content: center;
+        align-items: center;
+        display: flex;
+}
+@media screen and (min-width:768px) {
+    .second-section-small-title{
+        display:block;
+    }
 }
 @media screen and (min-width:1158px) {
     .second-section-small-title{
