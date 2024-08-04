@@ -814,7 +814,9 @@ padding: 94px 0;
     .cccc-form{
         flex-direction: row;
     }
-    
+    .footer-container{
+        align-items: baseline;
+    }
 }
 @media screen and (min-width:768px), (max-width:1158px) {
     .footer-container{
