@@ -208,6 +208,7 @@ ol {
     position: absolute;
     top: 24px;
     right: 24px;
+    border-radius: 50%;
 }
 .mobile-nav-list{
     display:flex;
@@ -222,7 +223,13 @@ ol {
 .mobile-menu-nav {
     margin-bottom: auto;
 }
-
+.mobile-address-list{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
 @media screen and (min-width: 768px) {
     .mobile-menu {
         display: none;
