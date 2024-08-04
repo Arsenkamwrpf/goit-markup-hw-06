@@ -269,11 +269,7 @@ ol {
     background-size: cover;
     margin: 0 auto;
 }
-@media screen and (min-resolution:192dpi) {
-    .first-section{
-        background-image: url(./images/bkgi.jpg);
-    }
-}
+
 .first-section-title {
     min-width: 216px;
     font-size: 48px;
