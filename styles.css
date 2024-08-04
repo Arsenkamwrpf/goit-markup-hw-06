@@ -209,7 +209,11 @@ ol {
     top: 24px;
     right: 24px;
 }
-
+.mobile-nav-list{
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+}
 .mobile-menu-nav {
     margin-bottom: auto;
 }
