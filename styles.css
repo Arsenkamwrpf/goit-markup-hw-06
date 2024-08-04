@@ -223,7 +223,12 @@ ol {
 .mobile-menu-nav {
     margin-bottom: auto;
     gap:40px;
-
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
 .mobile-address-list{
     font-size: 20px;
