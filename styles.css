@@ -232,6 +232,9 @@ ol {
     padding-bottom: 40px;
     gap:24px !important;
 }
+.mobile-icon-list{
+    gap:40px;
+}
 @media screen and (min-width: 768px) {
     .mobile-menu {
         display: none;
