@@ -843,6 +843,7 @@ placeholder {
     min-width: 165px;
     height: 40px;
     padding-top: 16px;
+    padding-bottom: 16px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -862,6 +863,7 @@ placeholder {
     .cccc-button{
         flex-direction: row;
         padding-top: 0;
+        padding-bottom: 0;
     }
 }
 
