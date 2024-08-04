@@ -237,6 +237,9 @@ ol {
     display: flex;
     justify-content: center;
 }
+.mobile-link-ppp{
+    color:#2E2F42
+}
 @media screen and (min-width: 768px) {
     .mobile-menu {
         display: none;
