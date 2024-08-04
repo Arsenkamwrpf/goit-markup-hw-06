@@ -209,7 +209,9 @@ ol {
     top: 24px;
     right: 24px;
 }
-
+.mobile-nav-list{
+    gap:24px;
+}
 .mobile-menu-nav {
     margin-bottom: auto;
     font-size: 36px;
