@@ -1047,7 +1047,7 @@ placeholder {
 }
 
 .modal-div {
-    margin-bottom: 8px;
+    padding-bottom: 8px;
 }
 
 .modal-div-second {
@@ -1060,7 +1060,7 @@ placeholder {
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
-    margin-bottom: 4px;
+    padding-bottom: 4px;
 }
 
 .second-div-input {
