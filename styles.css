@@ -734,6 +734,8 @@ padding: 94px 0;
 @media screen and (min-width:768px) {
     .footer-container{
         justify-content: normal;
+        gap: 72px 24px;
+
     }
 }
 @media screen and (min-width:1158px) {
@@ -842,10 +844,12 @@ padding: 94px 0;
     background-color: #31d0aa;
     ;
 }
-
-.bbbb {
+@media screen and (min-width:1158px) {
+    .bbbb {
     margin-right: 40px;
 }
+}
+
 
 .cccc-paragraf {
     margin-bottom: 16px;
@@ -866,10 +870,13 @@ padding: 94px 0;
     flex-direction: column;
     display: flex;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (min-width:768px) {
     .cccc-form{
         flex-direction: row;
+        align-items: baseline;
     }
     .footer-container{
         align-items: baseline;
@@ -899,7 +906,7 @@ placeholder {
 }
 
 .cccc-button {
-    min-width: 165px;
+    max-width: 165px;
     height: 40px;
     padding-top: 16px;
     padding-bottom: 16px;
