@@ -728,8 +728,8 @@ padding: 94px 0;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 72px 0 72px;
-    gap: 20px;
+    padding: 96px 0 96px;
+    gap: 74px;
 }
 @media screen and (min-width:768px) {
     .footer-container{
@@ -750,7 +750,7 @@ padding: 94px 0;
     }
 }
 .footer {
-    padding: 16px 0;
+    height: 664px;
     background-color: #2e2f42;
 }
 @media screen and (min-width:768px) {
@@ -758,8 +758,6 @@ padding: 94px 0;
         padding: 100px 0;
     }
 }
-
-
 
 @media screen and (min-width:768px) {
     .aaaa{
@@ -773,6 +771,7 @@ padding: 94px 0;
 }
 
 .footer-logo {
+    margin-top: 3px;
     display: flex;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
@@ -785,6 +784,7 @@ padding: 94px 0;
     justify-content: center;
     align-items: center;
 }
+
 @media screen and (min-width:768px){
     .footer-logo{
         display: inline-block;
@@ -795,13 +795,19 @@ padding: 94px 0;
 }
 
 .footer-paragraf {
+    margin: 0;
     max-width: 264px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
-
+@media screen and (min-width:1158px) {
+    .bbbb {
+    margin-right: 40px;
+}
+}
 .footer-social-media {
+    margin: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -844,15 +850,12 @@ padding: 94px 0;
     background-color: #31d0aa;
     ;
 }
-@media screen and (min-width:1158px) {
-    .bbbb {
-    margin-right: 40px;
-}
-}
+
 
 
 .cccc-paragraf {
-    margin-bottom: 16px;
+    margin-top: 0;
+    margin-bottom: 8px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -864,6 +867,7 @@ padding: 94px 0;
 @media screen and (min-width:768px) {
     .cccc-paragraf {
         display: inline-block;
+            margin-bottom: 16px;
     }
 }
 .cccc-form {
