@@ -794,9 +794,11 @@ flex-direction: column;
 }
 @media screen and (min-width:768px) {
     .footer-container{
-        justify-content: normal;
+        justify-content: center;
         gap: 72px 24px;
-
+    }
+    .cccc{
+        justify-content: normal;
     }
 }
 @media screen and (min-width:1158px) {
