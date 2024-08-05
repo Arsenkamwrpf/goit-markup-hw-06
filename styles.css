@@ -300,7 +300,7 @@ ol {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(./images/bkgi.jpg);
     }
 }
-@media screen and (min-width:1158px){
+@media screen and (min-width:1158px) {
 .first-section {
         background-color: #2e2f42;
         max-width: 1440px;
@@ -802,7 +802,6 @@ flex-direction: column;
 @media screen and (min-width:768px) {
     .footer-container{
         align-items: baseline;
-        justify-content: normal;
         gap: 72px 24px;
         flex-direction: row;
     }
