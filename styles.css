@@ -24,6 +24,7 @@ ol {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
+        padding: 0;
     }
 }
 
@@ -1305,7 +1306,7 @@ placeholder {
     color: #404bbf;
 
 }
-
+.container
 .mob-info-iteam:hover,
 .mob-info-iteam:focus {
     color: #404bbf;
