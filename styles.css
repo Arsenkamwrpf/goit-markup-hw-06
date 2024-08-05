@@ -812,6 +812,7 @@ flex-direction: column;
 @media screen and (min-width:768px) {
     .footer-container{
         padding: 0;
+        padding-left: 96px;
         align-items: baseline;
         gap: 72px 24px;
         flex-direction: row;
