@@ -242,7 +242,11 @@ ol {
         letter-spacing: 0.02em;
         text-align: left;
 }
-
+.mobile-icon-items{
+    margin:0;
+    height: 40px;
+    width: 40px;
+}
 .mobile-icon-list{
     gap:40px;
     display: flex;
