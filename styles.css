@@ -271,7 +271,7 @@ ol {
     padding: 48px 0;
     background-color: #2e2f42;
     gap: 15px;
-    max-height: 432px;
+    height: 432px;
     max-width: 320px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/Dark-bg.jpg);
     background-repeat: no-repeat;
@@ -285,7 +285,7 @@ ol {
     }
 }
 .first-section-title {
-    max-height: 160px;
+    height: 160px;
     max-width: 216px;
     text-align: center;
     color: #ffffff;
@@ -346,7 +346,7 @@ padding: 94px 0;
         margin: 0 auto;
     }
     .first-section-title {
-        max-height: 120px;
+        height: 120px;
         max-width: 496px;
         text-align: center;
         letter-spacing: 0.02em;
