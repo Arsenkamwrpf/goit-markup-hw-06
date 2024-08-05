@@ -603,7 +603,7 @@ padding: 94px 0;
 }
 
 .fourth-section {
-    padding: 72px 0;
+    padding: 96px 0;
 }
 @media screen and (min-width:1158px) {
     .fourth-section{
@@ -611,6 +611,7 @@ padding: 94px 0;
     }
 }
 .fourth-section-title {
+    margin-top: 0;
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
