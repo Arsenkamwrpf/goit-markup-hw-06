@@ -419,13 +419,14 @@ padding: 94px 0;
 .features-list {
     display:flex;
     flex-direction:column;
-    gap: 24px;
+    gap:72px;
     padding-left: 0;
     margin: 0;
 }
 @media screen and (min-width:768px) {
     .features-list{
         flex-flow: row wrap;
+        gap: 72px 24px;
     }
 }
     .features-list .features-item {
@@ -446,8 +447,7 @@ padding: 94px 0;
 
 
 .second-section-small-title {
-    margin-top: 0;
-    margin-bottom: 8px;
+    margin: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.4;
@@ -471,6 +471,7 @@ padding: 94px 0;
 }
 
 .second-section-paragraf {
+    margin:0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
