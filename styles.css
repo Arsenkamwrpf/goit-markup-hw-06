@@ -677,7 +677,17 @@ padding: 94px 0;
     width: 288px;
     height: 400px;
 }
-
+@media screen and (min-width:768px) {
+    .fourth-item{
+        width:356px;
+        height: 420px;
+    }
+}
+@media screen and (min-width:1158px) {
+    .fourth-item {
+        width: 360px;
+    }
+}
 .fourth-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -703,14 +713,33 @@ justify-content: center;
 padding: 0 10px;
 flex-direction: column;
 }
-
+@media screen and (min-width:768px) {
+    .partfolio-info {
+        width: 356px;
+    }
+}
+@media screen and (min-width:1158px) {
+    .partfolio-info {
+        width: 360px;
+    }
+}
 .fourth-item-image {
     position: relative;
     overflow: hidden;
     width:288px;
     height: 280px;
 }
-
+@media screen and (min-width:768px) {
+    .fourth-item-image {
+        height: 300px;
+        width: 356px;
+    }
+}
+@media screen and (min-width:768px) {
+    .fourth-item-image {
+        width: 360px;
+    }
+}
 .fourth-section-small-title {
     margin: 0;
     font-weight: 500;
