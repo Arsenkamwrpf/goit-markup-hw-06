@@ -554,7 +554,7 @@ padding: 94px 0;
 }
 @media screen and (min-width:1158px) {
         .third-section-list {
-                gap: 32px;
+                gap: 24px;
             }
     .third-section-list .third-section-item {
         flex-basis: calc((100% - 3 * 24px) / 4);
