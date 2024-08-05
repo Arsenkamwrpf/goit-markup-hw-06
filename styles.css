@@ -819,8 +819,12 @@ flex-direction: column;
 @media screen and (min-width:768px) {
     .footer {
             height: 456px;
-            background-color: #2e2f42;
         }
+}
+@media screen and (min-width:1158px) {
+    .footer {
+        height: 312px;
+    }
 }
 
 @media screen and (min-width:768px) {
