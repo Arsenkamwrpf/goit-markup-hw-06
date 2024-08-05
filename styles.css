@@ -819,6 +819,7 @@ flex-direction: column;
 }
 @media screen and (min-width:768px) {
     .footer-container{
+        
         padding: 0;
         padding-left: 96px;
         align-items: baseline;
@@ -980,7 +981,6 @@ flex-direction: column;
 @media screen and (min-width:768px) {
     .footer-container{
         flex-wrap:wrap;
-        padding: 96px 96px 92px;
     }
 }
 @media screen and (min-width:1158px) {
@@ -1172,7 +1172,7 @@ placeholder {
 .privacy-link {
     color: #4d5ae5;
 }
-
+.footer-container
 .form-button-frfr {
     border-radius: 4px;
     margin-left: auto;
