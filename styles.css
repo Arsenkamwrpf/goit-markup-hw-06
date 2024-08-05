@@ -806,7 +806,7 @@ flex-direction: column;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding: 96px 0 92px;
+    padding: 90px 0 90px;
     gap: 74px;
 }
 @media screen and (min-width:768px) {
