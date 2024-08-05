@@ -811,6 +811,7 @@ flex-direction: column;
 }
 @media screen and (min-width:768px) {
     .footer-container{
+        padding: 0;
         align-items: baseline;
         gap: 72px 24px;
         flex-direction: row;
@@ -833,6 +834,8 @@ flex-direction: column;
 @media screen and (min-width:768px) {
     .footer {
             height: 456px;
+                    align-items: center;
+                        display: flex;
         }
 }
 @media screen and (min-width:1158px) {
