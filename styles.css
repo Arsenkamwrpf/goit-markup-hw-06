@@ -281,18 +281,21 @@ ol {
 }
 @media  screen and (min-resolution:192dpi) {
     .first-section{
-        background-image: url(./images/Dark-bg.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(./images/bkgi.jpg);
     }
 }
 .first-section-title {
-    min-width: 216px;
-    font-size: 48px;
-    line-height: 48px;
+    max-height: 160px;
+    max-width: 216px;
     text-align: center;
-    letter-spacing: 0.02em;
     color: #ffffff;
     margin-right: auto;
     margin-left: auto;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
 }
 
 .button {
@@ -343,14 +346,17 @@ padding: 94px 0;
         margin: 0 auto;
     }
     .first-section-title {
+        max-height: 120px;
         max-width: 496px;
-        font-size: 56px;
-        line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
         color: #ffffff;
         margin-right: auto;
         margin-left: auto;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: 0.02em;
     }
 }
 @media screen and (min-width:1158px){
