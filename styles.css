@@ -265,7 +265,11 @@ ol {
     justify-content: center;
 }
 .mobile-link-ppp{
-    color:#2E2F42
+    background: #2E2F42;
+
+}
+.mobile-link{
+    background: #404BBF;
 }
 @media screen and (min-width: 768px) {
     .mobile-menu {
