@@ -273,17 +273,17 @@ ol {
     justify-content: center;
 }
 .mobile-link-ppp{
-    background: #2E2F42;
+    background: #2E2F42 !important;
 
 }
 .mobile-link{
-    color: #404BBF;
+    color: #404BBF !important;
 }
 .mobile-address-link{
-    color: #4D5AE5;
+    color: #4D5AE5 !important;
 }
 .mobile-address-email{
-    color: #434455;
+    color: #434455 !important;
 }
 @media screen and (min-width: 768px) {
     .mobile-menu {
