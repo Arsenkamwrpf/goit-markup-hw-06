@@ -102,6 +102,12 @@ ol {
     }
 
     .nav-link {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            text-align: left;
         color: #2e2f42;
         font-size: 16px;
         font-weight: 500;
@@ -292,7 +298,7 @@ ol {
     line-height: 1.5;
     text-align: center;
 }
-
+.nav-link
 .first-section {
     padding: 48px 0;
     background-color: #2e2f42;
