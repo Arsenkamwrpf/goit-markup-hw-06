@@ -213,7 +213,7 @@ ol {
 .mobile-nav-list{
     display:flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 40px;
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
