@@ -276,13 +276,13 @@ ol {
 
 }
 .mobile-link{
-    background: #404BBF;
+    color: #404BBF;
 }
 .mobile-address-link{
-    background: #4D5AE5;
+    color: #4D5AE5;
 }
 .mobile-address-email{
-    background: #434455;
+    color: #434455;
 }
 @media screen and (min-width: 768px) {
     .mobile-menu {
