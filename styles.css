@@ -801,8 +801,10 @@ flex-direction: column;
 }
 @media screen and (min-width:768px) {
     .footer-container{
+        align-items: baseline;
         justify-content: normal;
         gap: 72px 24px;
+        flex-direction: row;
     }
     .cccc{
         justify-content: normal;
@@ -813,11 +815,6 @@ flex-direction: column;
         padding:0;
         justify-content: baseline;
         
-    }
-}
-@media screen and (min-width:768px) {
-    .footer-container {
-        flex-direction: row;
     }
 }
 .footer {
@@ -957,10 +954,6 @@ flex-direction: column;
     .cccc-form{
         flex-direction: row;
         align-items: baseline;
-    }
-    .footer-container{
-        align-items: baseline;
-        justify-content: center;
     }
 }
 @media screen and (min-width:768px), (max-width:1158px) {
