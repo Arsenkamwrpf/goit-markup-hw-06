@@ -661,12 +661,12 @@ padding: 94px 0;
 /*
 .fourth-list .fourth-item {
     width: calc((100% - 48px) / 1);
-}*/
+}
 @media screen and (min-width:768px) {
 .fourth-list .fourth-item {
         width: calc((100% - 48px) / 2);
     }
-}
+}*/
 @media screen and (min-width:1158px) {
     .fourth-list .fourth-item {
             width: calc((100% - 48px) / 3);    
@@ -735,7 +735,7 @@ flex-direction: column;
         width: 356px;
     }
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:1158px) {
     .fourth-item-image {
         width: 360px;
     }
