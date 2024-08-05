@@ -967,7 +967,7 @@ flex-direction: column;
 .cccc-form {
     flex-direction: column;
     display: flex;
-    gap: 16px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
 }
