@@ -960,6 +960,11 @@ flex-direction: column;
         padding: 96px 96px 92px;
     }
 }
+@media screen and (min-width:1158px) {
+    .footer-container{
+    padding: 96px 0 92px;
+    }
+}
 .cccc-input {
     width: 264px;
     height: 40px;
