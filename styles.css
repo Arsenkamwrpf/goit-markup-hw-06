@@ -973,7 +973,7 @@ placeholder {
 }
 
 .cccc-button {
-    max-width: 165px;
+    width: 165px;
     height: 40px;
     padding-top: 16px;
     padding-bottom: 16px;
