@@ -854,9 +854,9 @@ flex-direction: column;
 }
 
 .footer-logo {
-    margin-top: 3px;
+    padding-top: 3px;
     display: flex;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -896,7 +896,7 @@ flex-direction: column;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -937,8 +937,8 @@ flex-direction: column;
 
 
 .cccc-paragraf {
-    margin-top: 0;
-    margin-bottom: 8px;
+    margin: 0;
+    padding-bottom: 24px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -956,7 +956,7 @@ flex-direction: column;
 .cccc-form {
     flex-direction: column;
     display: flex;
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
     align-items: center;
 }
